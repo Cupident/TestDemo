@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 我们希望在配置文件中，出现链接的参数信息 -->
+	<default-config>
+		<!-- name 属性定义 链接参数的key 标签的内容 代表值-->
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///superestore?useUnicode=true&amp;characterEncoding=utf-8</property>
+		<property name="user">root</property>
+		<property name="password">root</property>
+	</default-config> 
+</c3p0-config>
